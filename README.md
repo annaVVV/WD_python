@@ -1,6 +1,7 @@
 # WD_python
 
 [Selenium Python Page Objects](http://selenium-python.readthedocs.io/page-objects.html)
+
 Introduction to page objects design pattern. A page object represents an area in the web application user interface that your test is interacting.
 
 Benefits of using page object pattern:
