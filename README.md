@@ -6,6 +6,8 @@ Introduction to page objects design pattern. A page object represents an area in
 
 Benefits of using page object pattern:
 
-⋅⋅* Creating reusable code that can be shared across multiple test cases
-⋅⋅* Reducing the amount of duplicated code
-⋅⋅* If the user interface changes, the fix needs changes in only one place
+* Creating reusable code that can be shared across multiple test cases
+
+* Reducing the amount of duplicated code
+
+* If the user interface changes, the fix needs changes in only one place
