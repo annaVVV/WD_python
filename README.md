@@ -17,8 +17,8 @@ Benefits of using page object pattern:
 
 Usage of coverage module
 
-'''
-Directory of C:\Users\Mike\PycharmProjects\WebDriver_PageObject
+```
+Directory of C:\Users\Anna\PycharmProjects\WebDriver_PageObject
 
 08/01/2017  06:52 PM    <DIR>          .
 08/01/2017  06:52 PM    <DIR>          ..
@@ -29,14 +29,14 @@ Directory of C:\Users\Mike\PycharmProjects\WebDriver_PageObject
                2 File(s)          3,143 bytes
                4 Dir(s)  179,580,342,272 bytes free
 
-C:\Users\Mike\PycharmProjects\WebDriver_PageObject>coverage run TestLogin.py
+C:\Users\Anna\PycharmProjects\WebDriver_PageObject>coverage run TestLogin.py
 .
 ----------------------------------------------------------------------
 Ran 1 test in 36.359s
 
 OK
 
-C:\Users\Mike\PycharmProjects\WebDriver_PageObject>coverage report -m
+C:\Users\Anna\PycharmProjects\WebDriver_PageObject>coverage report -m
 Name              Stmts   Miss  Cover   Missing
 -----------------------------------------------
 TestLogin.py         23      0   100%
@@ -48,6 +48,6 @@ lib\utils.py         25      6    76%   18-19, 28-32
 -----------------------------------------------
 TOTAL               130     20    85%
 
-C:\Users\Mike\PycharmProjects\WebDriver_PageObject>coverage html
+C:\Users\Anna\PycharmProjects\WebDriver_PageObject>coverage html
 
-'''
+```
