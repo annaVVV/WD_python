@@ -13,9 +13,12 @@ Benefits of using page object pattern:
 * If the user interface changes, the fix needs changes in only one place
 
 
-#COVERAGE
+## COVERAGE
 
- Directory of C:\Users\Mike\PycharmProjects\WebDriver_PageObject
+Usage of coverage module
+
+'''
+Directory of C:\Users\Mike\PycharmProjects\WebDriver_PageObject
 
 08/01/2017  06:52 PM    <DIR>          .
 08/01/2017  06:52 PM    <DIR>          ..
@@ -46,3 +49,5 @@ lib\utils.py         25      6    76%   18-19, 28-32
 TOTAL               130     20    85%
 
 C:\Users\Mike\PycharmProjects\WebDriver_PageObject>coverage html
+
+'''
