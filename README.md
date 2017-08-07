@@ -51,3 +51,4 @@ TOTAL               130     20    85%
 C:\Users\Anna\PycharmProjects\WebDriver_PageObject>coverage html
 
 ```
+[[https://github.com/annaVVV/WD_python/blob/master/Coverage.jpg|alt=octocat]]
