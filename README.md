@@ -15,7 +15,7 @@ Benefits of using page object pattern:
 
 ## COVERAGE
 
-Usage of coverage module
+[Usage of coverage module](http://coverage.readthedocs.io/en/latest/)
 
 ```
 Directory of C:\Users\Anna\PycharmProjects\WebDriver_PageObject
