@@ -5,13 +5,8 @@ from lib.utils import SmartSearch
 from lib.utils import Config
 import time
 
-class SearchTextElement(BasePageElement):
-
-    locator = 'q'
-
 
 class BasePage(object):
-    BASE_URL = "http://hrm.seleniumminutes.com/"
 
     def __init__(self, driver):
         self.driver = driver
@@ -39,8 +34,7 @@ class LoginPage(BasePage):
     search_text_element = SearchTextElement()
     def __init__(self, driver):
         super(LoginPage, self).__init__(driver)
-        #self.login_url = BasePage.BASE_URL + "symfony/web/index.php/auth/login"
-        self.login_url = self.base_url + "symfony/web/index.php/auth/login"
+        self.login_url = self.base_url
 
     def is_title_matches(self):
         return "OrangeHRM" in self.driver.title
