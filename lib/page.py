@@ -71,3 +71,11 @@ class LoginPage(BasePage):
         self.put_text_to_password_field(self.password)
         self.click_login_button()
 
+
+"""
+class SearchResultsPage(BasePage):
+    def is_results_found(self):
+        # Probably should search for this text in the specific page
+        # element, but as for now it works fine
+        return "No results found." not in self.driver.page_source
+"""
